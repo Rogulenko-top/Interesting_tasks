@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Morse {
+public class Morse_encryption {
     public static void main(String[] args) {
         String message = "THE NINA PROJECT";
         String result = encode(message);
