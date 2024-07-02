@@ -3,7 +3,10 @@ import java.util.Map;
 
 public class Morse_decoding {
     public static void main(String[] args) {
-        String message = "- .... .   -. .. -. .-   .--. .-. --- .--- . -.-. -";
+        System.out.println("Введите шифр Морзы: ");
+        Scanner scanner = new Scanner(System.in);
+        String message = scanner.nextLine();
+        //String message = "-. .. -. .-   .--. .-. --- .--- . -.-. --";
         String result = encode(message);
         System.out.println(result);
 
